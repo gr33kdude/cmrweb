@@ -1,11 +1,16 @@
 require 'rubygems'
 require 'sinatra'
 require 'haml'
+require 'sass'
 
 get '/' do
-  'Carnegie Mellon Racing!!!!!'
+  "The Homepage!"
 end
 
 get '/car/:carname' do
   haml :car
+end
+
+get '/stylesheets/style.css' do
+  sass :style
 end
