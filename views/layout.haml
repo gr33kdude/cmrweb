@@ -2,20 +2,5 @@
 	%head
 		%title Carnegie Mellon Racing
 		%link{:rel=>'stylesheet', :href=>'/stylesheets/style.css', :type => "text/css"}
-	%body
-		.header
-			%h1 Carnegie Mellon Racing
-			%ul.offsite_links
-				%li Join the Team
-				%li
-					%a{:href => 'http://www.carnegiemellonracing.com/wiki/'} Wiki
-				%li ShopTracker
-			%ul.navigation
-				%li
-					%a{:href => '/'} Home
-				%li Cars
-				%li Competitions
-				%li The Team
+	%body.twoColFixLtHdr
 		= yield
-		.footer
-			%p (c) carnegie mellon racing

@@ -1,5 +1,5 @@
-.container
-	.header
+#container
+	#header
 		%h1
 			%img{:src => '/img/banner.jpg', :height => '201', :width => '1000', :alt => "Carnegie Mellon Racing"}
 		%table{:border => '0', :cellpadding => '0', :cellspacing =>'0'}
@@ -7,27 +7,27 @@
 				%tr
 					%td
 						%a{:href => '/news'}
-							%img{:src => '/img/Rollover_01.gif', :alt => 'News', :height => '50', :width => '125'}
+							%img{:src => '/img/Navigation_01.gif', :alt => 'News', :height => '50', :width => '125'}
 					%td
 						%a{:href => '/team'}
-							%img{:src => '/img/Rollover_02.gif', :alt => 'Team', :height => '50', :width => '134'}
+							%img{:src => '/img/Navigation_02.gif', :alt => 'Team', :height => '50', :width => '134'}
 					%td
 						%a{:href => '/car'}
-							%img{:src => '/img/Rollover_03.gif', :alt => 'Car', :height => '50', :width => '130'}
+							%img{:src => '/img/Navigation_03.gif', :alt => 'Car', :height => '50', :width => '130'}
 					%td
 						%a{:href => '/pictures'}
-							%img{:src => '/img/Rollover_04.gif', :alt => 'Pictures', :height => '50', :width => '146'}
+							%img{:src => '/img/Navigation_04.gif', :alt => 'Pictures', :height => '50', :width => '146'}
 					%td
 						%a{:href => '/sponsors'}
-							%img{:src => '/img/Rollover_05.gif', :alt => 'Sponsors', :height => '50', :width => '176'}
+							%img{:src => '/img/Navigation_05.gif', :alt => 'Sponsors', :height => '50', :width => '176'}
 					%td
 						%a{:href => '/links'}
-							%img{:src => '/img/Rollover_06.gif', :alt => 'Team Links', :height => '50', :width => '134'}
+							%img{:src => '/img/Navigation_06.gif', :alt => 'Team Links', :height => '50', :width => '134'}
 					%td
 						%a{:href => '/contact'}
-							%img{:src => '/img/Rollover_07.gif', :alt => 'Contact', :height => '50', :width => '155'}
+							%img{:src => '/img/Navigation_07.gif', :alt => 'Contact', :height => '50', :width => '155'}
 
-	.sidebar1
+	#sidebar1
 		%h3#style2 News
 		%p#style2
 			%a{:href => '/webcam'} Webcam
@@ -36,15 +36,16 @@
 		%p#style2
 			%a{:href => 'http://carnegiemellonracing.blogspot.com/2008/06/carnegie-mellon-racing-competes-at_1816.html'} MIS Competition 2008 Article
 
-	.mainContent
-		%iframe{:src => 'http://carnegiemellonracing.blogspot.com', :height => '3200', :width => '770'} An iframe capable browser is required to view this website.
+	#mainContent
+		%iframe{:src => 'http://carnegiemellonracing.blogspot.com', :height => '3200', :width => '770', :frameborder => '0'} An iframe capable browser is required to view this website.
 	%br#clearfloat
-	.footer
+	#footer
 		%p
-			%a{:href => '/news'}
-			%span#style2 |
+			%a{:href => '/news'} Home
+			%span#style2
+				|
 				%a{:href => '/sitemap'} Sitemap
 				|
-				%a{:href => '/contact'} Contact
+				%a{:href => '/contact' } Contact
 				|
 				%span#style4 (c)2010 Carnegie Mellon Racing
