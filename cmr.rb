@@ -4,7 +4,7 @@ require 'haml'
 require 'sass'
 
 get '/' do
-  haml :home
+  haml :home2
 end
 
 get '/car/:carname' do
