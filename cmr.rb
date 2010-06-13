@@ -4,11 +4,7 @@ require 'haml'
 require 'sass'
 
 get '/' do
-  haml :home2
-end
-
-get '/favicon.ico' do
-
+  haml :home
 end
 
 get '/car/:carname' do
