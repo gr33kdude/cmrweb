@@ -7,6 +7,10 @@ get '/' do
   haml :home2
 end
 
+get '/favicon.ico' do
+
+end
+
 get '/car/:carname' do
   haml :car
 end
